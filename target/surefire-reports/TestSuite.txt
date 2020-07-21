@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 8.443 sec <<< FAILURE!
-contactPageSetup(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 7.56 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.hubspot.tests.ContactsPageTest.contactPageSetup(ContactsPageTest.java:21)
-homePageSetup(com.qa.hubspot.tests.HomePageTest)  Time elapsed: 7.569 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:14)
-verifySignupLinkTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.hubspot.tests.LoginPageTest.verifySignupLinkTest(LoginPageTest.java:10)
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.047 s - in TestSuite

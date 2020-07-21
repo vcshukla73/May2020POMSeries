@@ -8,3 +8,5 @@ qa\com\hubspot\utils\ConstantsUtil.class
 qa\com\hubspot\utils\ExcelUtil.class
 qa\com\hubspot\utils\ElementUtil.class
 com\qa\hubspot\base\BasePage.class
+com\qa\hubspot\testlistners\ExtentReportListener.class
+com\qa\hubspot\testlistners\pdfListener.class

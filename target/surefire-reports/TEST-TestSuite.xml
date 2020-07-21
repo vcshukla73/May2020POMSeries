@@ -1,97 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="3" name="TestSuite" time="30.265" errors="0" skipped="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="66.047" tests="12" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\java\jdk-13.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vaibhav\eclipse-workspace\May2020POMSeries"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\vaibhav\eclipse-workspace\May2020POMSeries"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\vaibhav\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\java\jdk-13.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\java\jdk-13.0.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\vaibhav\AppData\Local\Microsoft\WindowsApps;C:\Users\vaibhav\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.6.3\bin;;."/>
-    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="57.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\vaibhav"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="13"/>
-    <property name="user.name" value="vaibhav"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="13"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
-    <property name="java.home" value="C:\Program Files\java\jdk-13.0.2"/>
-    <property name="user.language" value="en"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="13.0.2"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vaibhav"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="vaibhav"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vaibhav\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="C:\Users\vaibhav\eclipse-workspace\May2020POMSeries"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vaibhav\eclipse-workspace\May2020POMSeries"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\java\jdk-13.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\java\jdk-13.0.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\vaibhav\scoop\shims;C:\Users\vaibhav\AppData\Local\Microsoft\WindowsApps;C:\Users\vaibhav\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.6.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase classname="com.qa.hubspot.tests.ContactsPageTest" name="contactPageSetup" time="7.56">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.qa.hubspot.tests.ContactsPageTest.contactPageSetup(ContactsPageTest.java:21)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6833ce2c
-Browser Name chrome
-</system-out>
-    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 21809
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 14, 2020 7:51:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.qa.hubspot.tests.ContactsPageTest" name="verifyContactsPageTest" time="7.566">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.qa.hubspot.tests.HomePageTest" name="homePageSetup" time="7.569">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:14)
-</failure>
-  </testcase>
-  <testcase classname="com.qa.hubspot.tests.HomePageTest" name="verifyPageHeader" time="7.57">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.qa.hubspot.tests.LoginPageTest" name="verifySignupLinkTest" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.qa.hubspot.tests.LoginPageTest.verifySignupLinkTest(LoginPageTest.java:10)
-</failure>
-  </testcase>
+  <testcase name="verifySignupLinkTest" classname="com.qa.hubspot.tests.LoginPageTest" time="6.794"/>
+  <testcase name="verifyLoginPageTitle" classname="com.qa.hubspot.tests.LoginPageTest" time="0.031"/>
+  <testcase name="loginTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.637"/>
+  <testcase name="verifyPageHeader" classname="com.qa.hubspot.tests.HomePageTest" time="3.567"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.021"/>
+  <testcase name="verifyLoggedUserTest" classname="com.qa.hubspot.tests.HomePageTest" time="0.08"/>
+  <testcase name="verifyContactsPageTest" classname="com.qa.hubspot.tests.ContactsPageTest" time="0.526"/>
+  <testcase name="verifyContactPageHeader" classname="com.qa.hubspot.tests.ContactsPageTest" time="1.356"/>
+  <testcase name="createNerContactTest" classname="com.qa.hubspot.tests.ContactsPageTest" time="1.739"/>
+  <testcase name="verifyUserCreateSucessfully" classname="com.qa.hubspot.tests.ContactsPageTest" time="7.544"/>
+  <testcase name="deleteUserInfo" classname="com.qa.hubspot.tests.ContactsPageTest" time="1.727"/>
+  <testcase name="verifyContactDelete" classname="com.qa.hubspot.tests.ContactsPageTest" time="0.053"/>
 </testsuite>

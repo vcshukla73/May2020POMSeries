@@ -2,21 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Hub spot Test automtion regression suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.qa.hubspot.testlistners.ExtentReportListener"/>
-    <listener class-name="com.qa.hubspot.testlistners.pdfListener"/>
+    <listener class-name="com.qa.hubspot.testlistners.TesultsListener"/>
   </listeners>
-  <test thread-count="5" name="Hub Spot Feature Testing - feature(failed)">
+  <test thread-count="5" name="HubSpot Feature Testing - login(failed)">
     <classes>
-      <class name="com.qa.hubspot.tests.HomePageTest">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
         <methods>
-          <include name="homePageSetup"/>
-          <include name="verifyLoggedUserTest"/>
-          <include name="verifyPageHeader"/>
+          <include name="verifySignupLinkTest"/>
           <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
     </classes>
-  </test> <!-- Hub Spot Feature Testing - feature(failed) -->
+  </test> <!-- HubSpot Feature Testing - login(failed) -->
 </suite> <!-- Failed suite [Hub spot Test automtion regression suite] -->

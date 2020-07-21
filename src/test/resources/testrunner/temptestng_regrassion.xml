@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hub spot Test automtion regression suite" verbose="1">
+
+<listeners>
+		<listener class-name="com.qa.hubspot.testlistners.ExtentReportListener" />
+ 		<!--  <listener class-name="com.qa.hubspot.testlistners.pdfListener" />	-->
+ </listeners>
+
+	<test name="Hub Spot Login Testing -">
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+		</classes>
+	</test>
+ 
+	<!--   <test name="Hub Spot homepage Testing">
+		<classes>
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+		</classes>
+	</test>
+	
+	 <test name="Hub Spot contacts Testing">
+		<classes>
+		<class name="com.qa.hubspot.tests.ContactsPageTest" />
+		</classes>
+	</test> -->
+	
+</suite>

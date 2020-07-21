@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.qa.hubspot.base.BasePage;
 
+import io.qameta.allure.Step;
 import qa.com.hubspot.utils.ElementUtil;
 
 public class LoginPage extends BasePage {
@@ -18,7 +19,6 @@ public class LoginPage extends BasePage {
 	By password = By.id("password");
 	By loginButton = By.id("loginBtn");
 	By signUpLink = By.linkText("Sign up");
-
 	public LoginPage(WebDriver driver) {
 		 
 		
@@ -27,12 +27,12 @@ public class LoginPage extends BasePage {
 	}
 
 	// page action
-
+	@Step("Getting SignUp Link presence ")
 	public String getLoginPageTitle() {
 
 		return driver.getTitle();
 	}
-
+	@Step("Getting Login Page Title")
 	public boolean isSignUpLinkExists() {
 
 		//return driver.findElement(signUpLink).isDisplayed();
@@ -40,7 +40,7 @@ public class LoginPage extends BasePage {
 		
 
 	}
-
+	@Step("Login with User Name :{0} and PassWord: {1}")
 	public HomePage doLogin(String username, String pwd) {
 		driver.findElement(emailId).sendKeys(username);
 		driver.findElement(password).sendKeys(pwd);
