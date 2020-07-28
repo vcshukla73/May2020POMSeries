@@ -27,16 +27,16 @@ public class LoginPage extends BasePage {
 	}
 
 	// page action
-	@Step("Getting SignUp Link presence ")
+	@Step("Getting Login Page Title")
 	public String getLoginPageTitle() {
 
 		return driver.getTitle();
 	}
-	@Step("Getting Login Page Title")
+	@Step("Getting SignUp Link presence")
 	public boolean isSignUpLinkExists() {
 
-		//return driver.findElement(signUpLink).isDisplayed();
-		return elementutil.isElementDisplayed(signUpLink, 10);
+		return driver.findElement(signUpLink).isDisplayed();
+		//return elementutil.isElementDisplayed(signUpLink, 10);
 		
 
 	}
